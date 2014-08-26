@@ -1,31 +1,3 @@
-<!--
-	Coops Countdown timer - 2014
-	
-	Version 1.0
-
-	The code will countdown the hour on the hour. It uses
-	native javascript and therefore will not require any libraries
-	to run. It is currently modified for our leaderstrip and more 
-	importantly our hour of power promotion.
-	
-	-Christopher Cooper
--->
-
-
-
-<style>
-	#cover {
-		background-repeat: no-repeat;
-		position: relative;
-		}
-
-	#count-positioner {
-		position: absolute;
-		top: 10px;
-		left: 50px;
-}
-</style>
-
 
 <script type="text/javascript">
 
@@ -78,13 +50,3 @@
 }
 
 </script>
-
-
-<img src="http://www.dicksmith.com.au/get.php/media/wysiwyg/banner/AU/980xX_Leaderstrips/WK4_HOP_HPLeaderstrip_960x150_ANZ.JPG" />
-<body onload="_cntDown=setInterval('ShowTimes()',1000)">
-	<div id="cover" >
-	<div id="count-positioner">
-	<div id="countdownToMidnight" style=" margin-top: -192px; margin-left: 735px; font-size: 46pt; font-family: fantasy; "></div>
-	</div>
-	</div>
-</body>
